@@ -1,5 +1,6 @@
 # Electrical-week-1-task-1
 week 1 in smart methods internship 
+task 1: Robot Walking Algorithm
 
 
 ## Robot Walking Algorithm
