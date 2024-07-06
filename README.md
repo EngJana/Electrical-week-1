@@ -72,4 +72,6 @@ The walking algorithm moves the robot's legs through a sequence of four steps to
     - The left knee straightens to support the body.
     - The left ankle adjusts back to the neutral position for stability.
     - The robot waits for 500 milliseconds to allow the movement to complete.
-    - By repeating this sequence, the robot alternates moving its legs forward and backward, simulating a walking motion. The carefully chosen angles ensure that each leg moves smoothly and efficiently, providing stability and forward propulsion.
+    - By repeating this sequence, the robot alternates moving its legs forward and backward, simulating a walking
+
+motion. The carefully chosen angles ensure that each leg moves smoothly and efficiently, providing stability and forward propulsion.
