@@ -45,7 +45,7 @@ The walking algorithm moves the robot's legs through a sequence of four steps to
     - Neutral Position (90 degrees): This angle keeps the foot flat, providing stability.
     -Adjusted (45 degrees): This angle adjusts the foot position to facilitate the forward movement and prevent dragging.
 
-## Movement Sequence explination 
+## Movement Sequence Explanation 
 1. Move the right leg forward:
     - The left hip remains neutral to support the body.
     - The right hip moves forward, bringing the right leg forward.
