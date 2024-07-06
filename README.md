@@ -45,8 +45,8 @@ The walking algorithm moves the robot's legs through a sequence of four steps to
     - Neutral Position (90 degrees): This angle keeps the foot flat, providing stability.
     -Adjusted (45 degrees): This angle adjusts the foot position to facilitate the forward movement and prevent dragging.
 
-## Movement Sequence
-Move the right leg forward:
+## Movement Sequence explination 
+1. Move the right leg forward:
     - The left hip remains neutral to support the body.
     - The right hip moves forward, bringing the right leg forward.
     - The left knee remains straight to provide stability.
@@ -54,12 +54,12 @@ Move the right leg forward:
     - The left ankle stays neutral to anchor the body.
     - The right ankle adjusts to help clear the ground as the leg moves forward.
     - The robot waits for 500 milliseconds to allow the movement to complete.
-Move the right leg back to neutral:
+2. Move the right leg back to neutral:
     - The right hip moves back to the neutral position, aligning the right leg under the body.
     - The right knee straightens to support the body.
     - The right ankle adjusts back to the neutral position for stability.
     - The robot waits for 500 milliseconds to allow the movement to complete.
-Move the left leg forward:
+3. Move the left leg forward:
     - The left hip moves forward, bringing the left leg forward.
     - The right hip remains neutral to support the body.
     - The left knee bends to lift the foot off the ground.
@@ -67,7 +67,7 @@ Move the left leg forward:
     - The left ankle adjusts to help clear the ground as the leg moves forward.
     - The right ankle stays neutral to anchor the body.
     - The robot waits for 500 milliseconds to allow the movement to complete.
-Move the left leg back to neutral:
+4. Move the left leg back to neutral:
     - The left hip moves back to the neutral position, aligning the left leg under the body.
     - The left knee straightens to support the body.
     - The left ankle adjusts back to the neutral position for stability.
