@@ -36,40 +36,40 @@ The walking algorithm moves the robot's legs through a sequence of four steps to
 
 ## Explanation of Angles and Movement
 1.	Hip Joints
-    •	Neutral Position (90 degrees): This angle keeps the leg aligned vertically under the body.
-    •	Forward Position (45 degrees): This angle moves the leg forward, simulating the forward step of the walk cycle.
+    - Neutral Position (90 degrees): This angle keeps the leg aligned vertically under the body.
+    - Forward Position (45 degrees): This angle moves the leg forward, simulating the forward step of the walk cycle.
 2.	Knee Joints
-    •	Straight (90 degrees): This angle keeps the leg straight, providing stability and support.
-    •	Bent (135 degrees): This angle allows the leg to bend, lifting the foot off the ground to move forward.
+    - Straight (90 degrees): This angle keeps the leg straight, providing stability and support.
+    - Bent (135 degrees): This angle allows the leg to bend, lifting the foot off the ground to move forward.
 3.	Ankle Joints
-    •	Neutral Position (90 degrees): This angle keeps the foot flat, providing stability.
-    •	Adjusted (45 degrees): This angle adjusts the foot position to facilitate the forward movement and prevent dragging.
+    - Neutral Position (90 degrees): This angle keeps the foot flat, providing stability.
+    -Adjusted (45 degrees): This angle adjusts the foot position to facilitate the forward movement and prevent dragging.
 
 ## Movement Sequence
 Move the right leg forward:
-    •	The left hip remains neutral to support the body.
-    •	The right hip moves forward, bringing the right leg forward.
-    •	The left knee remains straight to provide stability.
-    •	The right knee bends to lift the foot off the ground.
-    •	The left ankle stays neutral to anchor the body.
-    •	The right ankle adjusts to help clear the ground as the leg moves forward.
-    •	The robot waits for 500 milliseconds to allow the movement to complete.
+    - The left hip remains neutral to support the body.
+    - The right hip moves forward, bringing the right leg forward.
+    - The left knee remains straight to provide stability.
+    - The right knee bends to lift the foot off the ground.
+    - The left ankle stays neutral to anchor the body.
+    - The right ankle adjusts to help clear the ground as the leg moves forward.
+    - The robot waits for 500 milliseconds to allow the movement to complete.
 Move the right leg back to neutral:
-    •	The right hip moves back to the neutral position, aligning the right leg under the body.
-    •	The right knee straightens to support the body.
-    •	The right ankle adjusts back to the neutral position for stability.
-    •	The robot waits for 500 milliseconds to allow the movement to complete.
+    - The right hip moves back to the neutral position, aligning the right leg under the body.
+    - The right knee straightens to support the body.
+    - The right ankle adjusts back to the neutral position for stability.
+    - The robot waits for 500 milliseconds to allow the movement to complete.
 Move the left leg forward:
-    •	The left hip moves forward, bringing the left leg forward.
-    •	The right hip remains neutral to support the body.
-    •	The left knee bends to lift the foot off the ground.
-    •	The right knee remains straight to provide stability.
-    •	The left ankle adjusts to help clear the ground as the leg moves forward.
-    •	The right ankle stays neutral to anchor the body.
-    •	The robot waits for 500 milliseconds to allow the movement to complete.
+    - The left hip moves forward, bringing the left leg forward.
+    - The right hip remains neutral to support the body.
+    - The left knee bends to lift the foot off the ground.
+    - The right knee remains straight to provide stability.
+    - The left ankle adjusts to help clear the ground as the leg moves forward.
+    - The right ankle stays neutral to anchor the body.
+    - The robot waits for 500 milliseconds to allow the movement to complete.
 Move the left leg back to neutral:
-    •	The left hip moves back to the neutral position, aligning the left leg under the body.
-    •	The left knee straightens to support the body.
-    •	The left ankle adjusts back to the neutral position for stability.
-    •	The robot waits for 500 milliseconds to allow the movement to complete.
-    •	By repeating this sequence, the robot alternates moving its legs forward and backward, simulating a walking motion. The carefully chosen angles ensure that each leg moves smoothly and efficiently, providing stability and forward propulsion.
+    - The left hip moves back to the neutral position, aligning the left leg under the body.
+    - The left knee straightens to support the body.
+    - The left ankle adjusts back to the neutral position for stability.
+    - The robot waits for 500 milliseconds to allow the movement to complete.
+    - By repeating this sequence, the robot alternates moving its legs forward and backward, simulating a walking motion. The carefully chosen angles ensure that each leg moves smoothly and efficiently, providing stability and forward propulsion.
