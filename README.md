@@ -1,4 +1,4 @@
-# Electrical-week-1-task1
+# Electrical-week-1-task-1
 week 1 in smart methods internship 
 
 
